@@ -13,7 +13,7 @@ export class GoogleProviderService extends PassportStrategy(Strategy , "google")
             clientID: "899251079071-ffsrqcvn8ihh7quraquu775egvf92fg7.apps.googleusercontent.com",
             clientSecret: "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",
             // callbackURL:  os.hostname()+"/auth/google/callback",
-            callbackURL:  "http://localhost:3000/auth/google/callback",
+            callbackURL:  "https://test-nest-huor.onrender.com/auth/google/callback",
             scope: ['profile', 'email'],
         })
     }
